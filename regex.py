@@ -5,6 +5,7 @@ import re
 string = input("Enter a string value: ")
 # Define the searching pattern
 pattern = '^[A-Z]'
+a = 1
 
 # match the pattern with input value
 found = re.match(pattern, string)
