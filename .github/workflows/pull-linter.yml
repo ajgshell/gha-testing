@@ -2,6 +2,8 @@ name: pull request lint
 on:
   pull_request:
     types: [opened, edited, reopened]
+  workflow_dispatch:
+  
 jobs:
   commitLint:
     runs-on: ubuntu-latest
